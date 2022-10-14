@@ -4,6 +4,11 @@
 /* check random number is negative or positive */
 
 /* betty style doc for function main */
+/**
+ * main - Entry point
+ *
+ * Return Always 0 (success)
+ */
 int main(void)
 {
 	int n;
