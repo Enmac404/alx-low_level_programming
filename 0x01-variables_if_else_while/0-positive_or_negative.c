@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* check random number is negative or positive */
 
+/* Betty style doc for function main */
 int main(void)
 {
 	int n;
