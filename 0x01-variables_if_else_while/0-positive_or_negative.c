@@ -3,14 +3,14 @@
 #include <stdio.h>
 /* check random number is negative or positive */
 
-/* Betty style doc for function main */
+/* betty style doc for function main */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 		n = rand() - RAND_MAX / 2;
-
+		/* your code goes here */
 		if (n > 0)
 			printf("%d is positive\n", n);
 		else if (n < 0)
